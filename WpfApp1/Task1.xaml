@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.Task1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Task1" Height="450" Width="800">
+    <Grid Margin="0,0,-115,-61">
+        <TextBox x:Name="tx" Height="29" Margin="207,159,431,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.385,1.041"/>
+        <Button Content="Запуск расчета" Margin="286,310,431,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label x:Name="label1" Content="Результат = " HorizontalAlignment="Left" Margin="35,226,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="60" Margin="26,41,0,0" TextWrapping="Wrap" Text="Вывести на экран число 2n!, n&lt;=100, n - натуральное." VerticalAlignment="Top" Width="742" TextChanged="TextBox_TextChanged" FontSize="20" IsEnabled="False"/>
+        <Label Content="Задача:" HorizontalAlignment="Left" Margin="26,4,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" RenderTransformOrigin="0.06,0.459"/>
+        <Label Content="Введите число:" HorizontalAlignment="Left" Margin="35,159,0,0" VerticalAlignment="Top" FontWeight="Bold" RenderTransformOrigin="0.06,0.459" FontSize="14"/>
+
+    </Grid>
+</Window>
